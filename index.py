@@ -3,12 +3,12 @@
 #lists
 # food=["pizza","tea","cheese","orange"]
 # print(food[1])
-#lists2
-food=["pizza","tea","cheese","orange"]
-food[1]="fish"
-# print(food[1])
-for x in food :
-    print(x)
+#2dlists
+drink=("sevenup","coffee","tea")
+dinner=("daal","cheese","orange")
+sweet=("cake","dates")
+food=[drink,dinner,sweet]
+print(food)
 
 
 
