@@ -16,9 +16,8 @@
 # print("hello"+"  "+name)
 # print("you are"+str(age)+"years old")
 # print("my height is "+str(height)+" cm")
-#math functions max function
-
-x=2
+#math functions min function
+x=2 
 y=5
 z=3
-print(max(x,y,z))
+print(min(x,y,z))
