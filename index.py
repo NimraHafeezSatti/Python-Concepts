@@ -7,9 +7,9 @@
 # tuples
 # for loops
 # sets
-# user input
+# user input2
 name=input("what is you name:")
-age=int(input("how old are you:"))
+age=float(input("how old are you:"))
 age=age+1
 print("hello"+"  "+name)
 print("you are"+str(age)+"years old")
