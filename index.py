@@ -7,9 +7,9 @@
 # tuples
 # for loops
 # sets
-utensils={"spoons","knife","fork"}
-for x in utensils:
-  print(x)
-
-
-
+# user input
+name=input("what is you name:")
+age=int(input("how old are you:"))
+age=age+1
+print("hello"+"  "+name)
+print("you are"+str(age)+"years old")
