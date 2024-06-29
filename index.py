@@ -5,16 +5,10 @@
 # print(food[1])
 #2dlists
 # tuples
-students=("nimra",17,"coding time")
-
-print(students.count("nimra"))
-print(students.index(17))
-for x in students:
-    print(x)
-if "nimra" in students:
-    print ('nimra is here')
-
-
+# for loops
+for second in range(10,0,-1): 
+    print(second)
+print("happy new year")
 
 
 
