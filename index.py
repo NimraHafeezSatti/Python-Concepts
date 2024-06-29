@@ -4,12 +4,15 @@
 # food=["pizza","tea","cheese","orange"]
 # print(food[1])
 #2dlists
-drink=("sevenup","coffee","tea")
-dinner=("daal","cheese","orange")
-sweet=("cake","dates")
-food=[drink,dinner,sweet]
-print(food)
+# tuples
+students=("nimra",17,"coding time")
 
+print(students.count("nimra"))
+print(students.index(17))
+for x in students:
+    print(x)
+if "nimra" in students:
+    print ('nimra is here')
 
 
 
