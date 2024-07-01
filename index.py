@@ -45,7 +45,12 @@
 # print(add(1,2,3,4,5))
 #nested functions cells
 #print(round(abs(float(input("enter a positive number: ")))))
-#keyword arguments2
-def hello(first,middle,last):
-    print("hello"+first+" "+middle+" "+last)
-hello ( first= '  nimra',last='hafeez',middle='satti')
+#
+# def hello(first,middle,last):
+#     print("hello"+first+" "+middle+" "+last)
+# hello (  '  nimra','hafeez','satti')
+#return statements
+def multiply(number1,number2):
+    return number1*number2
+x=multiply(1,2)
+print(x)
