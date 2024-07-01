@@ -31,7 +31,11 @@
 # finally:
 #     print("This is always executed.")
 #stringformat
-animal="cow"
-item="moon"
-#print("the  "+animal+" is over the "+item)
-print("the {} is over the  {}".format("cow","moon"))
+# a
+#args
+def add(*stuffs):
+    result=0
+    for stuff in stuffs:
+        result+=stuff
+    return result
+print(add(1,4,5,2,4,4,5))
