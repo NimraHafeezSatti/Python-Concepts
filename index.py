@@ -32,10 +32,14 @@
 #     print("This is always executed.")
 #stringformat
 # a
-#args
+#args2s
 def add(*stuffs):
-    result=0
-    for stuff in stuffs:
-        result+=stuff
-    return result
-print(add(1,4,5,2,4,4,5))
+    sum=0
+    stuffs=list(stuffs)
+    stuffs[0]=0
+    for i in stuffs:
+        sum +=i
+    return sum
+
+
+print(add(1,2,3,4,5))
