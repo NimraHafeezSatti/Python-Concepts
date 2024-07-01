@@ -44,4 +44,8 @@
 
 # print(add(1,2,3,4,5))
 #nested functions cells
-print(round(abs(float(input("enter a positive number: ")))))
+#print(round(abs(float(input("enter a positive number: ")))))
+# keyword arguments
+def hello(first,middle,last):
+    print("hello"+first+" "+middle+" "+last)
+hello (  '  nimra','hafeez','satti')
