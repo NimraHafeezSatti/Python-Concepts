@@ -33,13 +33,15 @@
 #stringformat
 # a
 #args2s
-def add(*stuffs):
-    sum=0
-    stuffs=list(stuffs)
-    stuffs[0]=0
-    for i in stuffs:
-        sum +=i
-    return sum
+# def add(*stuffs):
+#     sum=0
+#     stuffs=list(stuffs)
+#     stuffs[0]=0
+#     for i in stuffs:
+#         sum +=i
+#     return sum
 
 
-print(add(1,2,3,4,5))
+# print(add(1,2,3,4,5))
+#nested functions cells
+print(round(abs(float(input("enter a positive number: ")))))
