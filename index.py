@@ -67,7 +67,7 @@
 #     print(key, value)
 #nested loops
 #logical operator with variable
-a = 5
-b = 10
-if a < 10 and b > 5:
-    print("Both conditions are true")
+#nest loop of different lenghts
+for i in range(3):
+    for j in range(i):
+        print(i, j)
