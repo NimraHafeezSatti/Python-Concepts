@@ -62,7 +62,11 @@
 #     inner_function()
 #     print(x)  # This will print "nonlocal"
 #dictionary
-my_dict = {'a': 1, 'b': 2, 'c': 3}
-for key, value in my_dict.items():
-    print(key, value)
+# my_dict = {'a': 1, 'b': 2, 'c': 3}
+# for key, value in my_dict.items():
+#     print(key, value)
+#nested loops
+for i in range(3):
+    for i in range(2):
+        print(i)  # Inner loop's i
 
