@@ -50,7 +50,19 @@
 #     print("hello"+first+" "+middle+" "+last)
 # hello (  '  nimra','hafeez','satti')
 #return statements
-def multiply(number1,number2):
-     return number1*number2
-x=multiply(1,2)
-print(x)
+# def multiply(number1,number2):
+#      return number1*number2
+# x=multiply(1,2)
+# nonlocal keyword
+# def outer_function():
+#     x = "local"
+#     def inner_function():
+#         nonlocal x
+#         x = "nonlocal"
+#     inner_function()
+#     print(x)  # This will print "nonlocal"
+#dictionary
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key, value in my_dict.items():
+    print(key, value)
+
