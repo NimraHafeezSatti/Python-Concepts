@@ -66,7 +66,8 @@
 # for key, value in my_dict.items():
 #     print(key, value)
 #nested loops
-for i in range(3):
-    for i in range(2):
-        print(i)  # Inner loop's i
-
+#logical operator with variable
+a = 5
+b = 10
+if a < 10 and b > 5:
+    print("Both conditions are true")
