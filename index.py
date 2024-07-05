@@ -51,6 +51,6 @@
 # hello (  '  nimra','hafeez','satti')
 #return statements
 def multiply(number1,number2):
-    return number1*number2
+     return number1*number2
 x=multiply(1,2)
 print(x)
