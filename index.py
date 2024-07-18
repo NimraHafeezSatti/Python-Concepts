@@ -67,8 +67,7 @@
 #     print(key, value)
 #nested loops
 #loop for calculate number
-numbers = [1, 2, 3, 4, 5]
-total = 0
-for num in numbers:
-    total += num
-print(total)
+#loop for dictionary
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+for key, value in my_dict.items():
+    print(key, value)
