@@ -66,16 +66,9 @@
 # for key, value in my_dict.items():
 #     print(key, value)
 #nested loops
-#logical operator withne variable
-#loop with python
-for i in range(5):
-    print(i)
-else:
-    print("Loop completed")
-
-i = 0
-while i < 5:
-    print(i)
-    i += 1
-else:
-    print("Loop completed")
+#loop for calculate number
+numbers = [1, 2, 3, 4, 5]
+total = 0
+for num in numbers:
+    total += num
+print(total)
